@@ -151,6 +151,10 @@
     height: 600px;
   }
 
+  .item__second_desc-content {
+    font-size: 18px;
+  }
+
   .item__first_content-icons {
     margin-bottom: 50px;
   }
@@ -158,5 +162,12 @@
   .icon {
     width: 60px;
     height: 60px;
+  }
+}
+
+@media (min-width: 320px) {
+  .item__first_content {
+    margin: 0;
+    padding: 0;
   }
 }
