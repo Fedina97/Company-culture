@@ -165,6 +165,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  body {
+    overflow: hidden;
+  }
+
   .container__items {
     display: block;
   }
